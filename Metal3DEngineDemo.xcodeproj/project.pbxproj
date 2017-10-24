@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40BA3A611F9F4A3E0086825F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA3A601F9F4A3E0086825F /* AppDelegate.swift */; };
+		40BA3A631F9F4A3E0086825F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA3A621F9F4A3E0086825F /* ViewController.swift */; };
+		40BA3A661F9F4A3E0086825F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BA3A641F9F4A3E0086825F /* Main.storyboard */; };
+		40BA3A681F9F4A3E0086825F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BA3A671F9F4A3E0086825F /* Assets.xcassets */; };
+		40BA3A6B1F9F4A3E0086825F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BA3A691F9F4A3E0086825F /* LaunchScreen.storyboard */; };
+		40BA3A761F9F4A3E0086825F /* Metal3DEngineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA3A751F9F4A3E0086825F /* Metal3DEngineDemoTests.swift */; };
+		40BA3A811F9F4A3E0086825F /* Metal3DEngineDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BA3A801F9F4A3E0086825F /* Metal3DEngineDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40BA3A721F9F4A3E0086825F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BA3A551F9F4A3E0086825F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BA3A5C1F9F4A3E0086825F;
+			remoteInfo = Metal3DEngineDemo;
+		};
+		40BA3A7D1F9F4A3E0086825F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BA3A551F9F4A3E0086825F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BA3A5C1F9F4A3E0086825F;
+			remoteInfo = Metal3DEngineDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BA3A5D1F9F4A3E0086825F /* Metal3DEngineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal3DEngineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BA3A601F9F4A3E0086825F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40BA3A621F9F4A3E0086825F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40BA3A651F9F4A3E0086825F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40BA3A671F9F4A3E0086825F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BA3A6A1F9F4A3E0086825F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40BA3A6C1F9F4A3E0086825F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BA3A711F9F4A3E0086825F /* Metal3DEngineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Metal3DEngineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BA3A751F9F4A3E0086825F /* Metal3DEngineDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal3DEngineDemoTests.swift; sourceTree = "<group>"; };
+		40BA3A771F9F4A3E0086825F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BA3A7C1F9F4A3E0086825F /* Metal3DEngineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Metal3DEngineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BA3A801F9F4A3E0086825F /* Metal3DEngineDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal3DEngineDemoUITests.swift; sourceTree = "<group>"; };
+		40BA3A821F9F4A3E0086825F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BA3A5A1F9F4A3E0086825F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BA3A6E1F9F4A3E0086825F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BA3A791F9F4A3E0086825F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BA3A541F9F4A3E0086825F = {
+			isa = PBXGroup;
+			children = (
+				40BA3A5F1F9F4A3E0086825F /* Metal3DEngineDemo */,
+				40BA3A741F9F4A3E0086825F /* Metal3DEngineDemoTests */,
+				40BA3A7F1F9F4A3E0086825F /* Metal3DEngineDemoUITests */,
+				40BA3A5E1F9F4A3E0086825F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BA3A5E1F9F4A3E0086825F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BA3A5D1F9F4A3E0086825F /* Metal3DEngineDemo.app */,
+				40BA3A711F9F4A3E0086825F /* Metal3DEngineDemoTests.xctest */,
+				40BA3A7C1F9F4A3E0086825F /* Metal3DEngineDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40BA3A5F1F9F4A3E0086825F /* Metal3DEngineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				40BA3A601F9F4A3E0086825F /* AppDelegate.swift */,
+				40BA3A621F9F4A3E0086825F /* ViewController.swift */,
+				40BA3A641F9F4A3E0086825F /* Main.storyboard */,
+				40BA3A671F9F4A3E0086825F /* Assets.xcassets */,
+				40BA3A691F9F4A3E0086825F /* LaunchScreen.storyboard */,
+				40BA3A6C1F9F4A3E0086825F /* Info.plist */,
+			);
+			path = Metal3DEngineDemo;
+			sourceTree = "<group>";
+		};
+		40BA3A741F9F4A3E0086825F /* Metal3DEngineDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BA3A751F9F4A3E0086825F /* Metal3DEngineDemoTests.swift */,
+				40BA3A771F9F4A3E0086825F /* Info.plist */,
+			);
+			path = Metal3DEngineDemoTests;
+			sourceTree = "<group>";
+		};
+		40BA3A7F1F9F4A3E0086825F /* Metal3DEngineDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40BA3A801F9F4A3E0086825F /* Metal3DEngineDemoUITests.swift */,
+				40BA3A821F9F4A3E0086825F /* Info.plist */,
+			);
+			path = Metal3DEngineDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BA3A5C1F9F4A3E0086825F /* Metal3DEngineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BA3A851F9F4A3E0086825F /* Build configuration list for PBXNativeTarget "Metal3DEngineDemo" */;
+			buildPhases = (
+				40BA3A591F9F4A3E0086825F /* Sources */,
+				40BA3A5A1F9F4A3E0086825F /* Frameworks */,
+				40BA3A5B1F9F4A3E0086825F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metal3DEngineDemo;
+			productName = Metal3DEngineDemo;
+			productReference = 40BA3A5D1F9F4A3E0086825F /* Metal3DEngineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BA3A701F9F4A3E0086825F /* Metal3DEngineDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BA3A881F9F4A3E0086825F /* Build configuration list for PBXNativeTarget "Metal3DEngineDemoTests" */;
+			buildPhases = (
+				40BA3A6D1F9F4A3E0086825F /* Sources */,
+				40BA3A6E1F9F4A3E0086825F /* Frameworks */,
+				40BA3A6F1F9F4A3E0086825F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BA3A731F9F4A3E0086825F /* PBXTargetDependency */,
+			);
+			name = Metal3DEngineDemoTests;
+			productName = Metal3DEngineDemoTests;
+			productReference = 40BA3A711F9F4A3E0086825F /* Metal3DEngineDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40BA3A7B1F9F4A3E0086825F /* Metal3DEngineDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BA3A8B1F9F4A3E0086825F /* Build configuration list for PBXNativeTarget "Metal3DEngineDemoUITests" */;
+			buildPhases = (
+				40BA3A781F9F4A3E0086825F /* Sources */,
+				40BA3A791F9F4A3E0086825F /* Frameworks */,
+				40BA3A7A1F9F4A3E0086825F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BA3A7E1F9F4A3E0086825F /* PBXTargetDependency */,
+			);
+			name = Metal3DEngineDemoUITests;
+			productName = Metal3DEngineDemoUITests;
+			productReference = 40BA3A7C1F9F4A3E0086825F /* Metal3DEngineDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BA3A551F9F4A3E0086825F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "zang qilong";
+				TargetAttributes = {
+					40BA3A5C1F9F4A3E0086825F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					40BA3A701F9F4A3E0086825F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40BA3A5C1F9F4A3E0086825F;
+					};
+					40BA3A7B1F9F4A3E0086825F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40BA3A5C1F9F4A3E0086825F;
+					};
+				};
+			};
+			buildConfigurationList = 40BA3A581F9F4A3E0086825F /* Build configuration list for PBXProject "Metal3DEngineDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BA3A541F9F4A3E0086825F;
+			productRefGroup = 40BA3A5E1F9F4A3E0086825F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BA3A5C1F9F4A3E0086825F /* Metal3DEngineDemo */,
+				40BA3A701F9F4A3E0086825F /* Metal3DEngineDemoTests */,
+				40BA3A7B1F9F4A3E0086825F /* Metal3DEngineDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BA3A5B1F9F4A3E0086825F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BA3A6B1F9F4A3E0086825F /* LaunchScreen.storyboard in Resources */,
+				40BA3A681F9F4A3E0086825F /* Assets.xcassets in Resources */,
+				40BA3A661F9F4A3E0086825F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BA3A6F1F9F4A3E0086825F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BA3A7A1F9F4A3E0086825F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BA3A591F9F4A3E0086825F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BA3A631F9F4A3E0086825F /* ViewController.swift in Sources */,
+				40BA3A611F9F4A3E0086825F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BA3A6D1F9F4A3E0086825F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BA3A761F9F4A3E0086825F /* Metal3DEngineDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BA3A781F9F4A3E0086825F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BA3A811F9F4A3E0086825F /* Metal3DEngineDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BA3A731F9F4A3E0086825F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BA3A5C1F9F4A3E0086825F /* Metal3DEngineDemo */;
+			targetProxy = 40BA3A721F9F4A3E0086825F /* PBXContainerItemProxy */;
+		};
+		40BA3A7E1F9F4A3E0086825F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BA3A5C1F9F4A3E0086825F /* Metal3DEngineDemo */;
+			targetProxy = 40BA3A7D1F9F4A3E0086825F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40BA3A641F9F4A3E0086825F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BA3A651F9F4A3E0086825F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40BA3A691F9F4A3E0086825F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40BA3A6A1F9F4A3E0086825F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40BA3A831F9F4A3E0086825F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BA3A841F9F4A3E0086825F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BA3A861F9F4A3E0086825F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metal3DEngineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.Metal3DEngineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BA3A871F9F4A3E0086825F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metal3DEngineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.Metal3DEngineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40BA3A891F9F4A3E0086825F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metal3DEngineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.Metal3DEngineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal3DEngineDemo.app/Metal3DEngineDemo";
+			};
+			name = Debug;
+		};
+		40BA3A8A1F9F4A3E0086825F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metal3DEngineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.Metal3DEngineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal3DEngineDemo.app/Metal3DEngineDemo";
+			};
+			name = Release;
+		};
+		40BA3A8C1F9F4A3E0086825F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metal3DEngineDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.Metal3DEngineDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Metal3DEngineDemo;
+			};
+			name = Debug;
+		};
+		40BA3A8D1F9F4A3E0086825F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metal3DEngineDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zangqilong.Metal3DEngineDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Metal3DEngineDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BA3A581F9F4A3E0086825F /* Build configuration list for PBXProject "Metal3DEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BA3A831F9F4A3E0086825F /* Debug */,
+				40BA3A841F9F4A3E0086825F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BA3A851F9F4A3E0086825F /* Build configuration list for PBXNativeTarget "Metal3DEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BA3A861F9F4A3E0086825F /* Debug */,
+				40BA3A871F9F4A3E0086825F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BA3A881F9F4A3E0086825F /* Build configuration list for PBXNativeTarget "Metal3DEngineDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BA3A891F9F4A3E0086825F /* Debug */,
+				40BA3A8A1F9F4A3E0086825F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BA3A8B1F9F4A3E0086825F /* Build configuration list for PBXNativeTarget "Metal3DEngineDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BA3A8C1F9F4A3E0086825F /* Debug */,
+				40BA3A8D1F9F4A3E0086825F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BA3A551F9F4A3E0086825F /* Project object */;
+}
