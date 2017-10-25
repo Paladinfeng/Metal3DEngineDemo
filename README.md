@@ -39,6 +39,8 @@ glDraw   <----> commandEncoder.drawIndexedPrimitives
 利用Model I/O framework 导入Blender制作的obj文件。包含MTKMesh。
 #### Instance.swift
 用来制造大量重复的model
+#### Light
+定义光照类型，包括漫反射，镜面反射等
 
 ### 上层部件
 
