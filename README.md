@@ -24,7 +24,9 @@ glDraw   <----> commandEncoder.drawIndexedPrimitives
 * 简化了Shader的编译过程，将Shader编译过程前置（查阅了一些资料，Metal是在app加载过程中直接编译Bundle中的所有shader文件）。简化了fragment shader和vertex shader的加载流程。利用MTLLibrary等api一句话加载shader。
 * shader中变量的优化。类似于GL ES 3.0中layout的用法。简化了GL ES 2.0中变量类型。attribute， uniform和varying现在简化为attribute一种类型。内置变量使用stage_in来标记。
 * 优化了对struct类型的支持，在GL ES中，统一Objective-C中struct和shader中的数据格式非常麻烦。在Metal中有了MTLVertexDescriptor。就变得非常简单了。
-* 
+
+综上，Metal的绘制流程就简化为了。
+![](https://ws1.sinaimg.cn/large/006tNbRwgy1fku9e7k52oj30wq104dk9.jpg)
 
 ## 3D引擎的基本框架
 
