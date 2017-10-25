@@ -59,9 +59,10 @@ Scene类似于SpriteKit里的场景。
 ![](https://ws4.sinaimg.cn/large/006tNbRwgy1fku8y7fqv0j31ja0vcgpd.jpg)
 
 ## Demo
-一个基于Metal的撞砖块游戏
+跟着ray上的教程走了一遍，一个基于Metal的撞砖块游戏
 
 ![](https://ws4.sinaimg.cn/large/006tNbRwgy1fku9047v8ij30yi1pce0x.jpg)
+
 
 ## 参考资料
 
